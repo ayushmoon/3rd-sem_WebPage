@@ -140,7 +140,20 @@ header{
       width: 100%;
     }
   } 
+/* Media query for desktop screens */
+@media only screen and (min-width: 1200px) {
+  body {
+    /* Adjust body or overall layout for larger screens */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content on larger screens */
+    padding: 0 20px; /* Add some padding for better readability */
+  }
 
+  /* Specific adjustments for certain sections or elements on larger screens */
+  header {
+    /* Example header adjustment for larger screens */
+    font-size: 2em;
+  }
   .books{
     text-shadow: 2px 2px 2px blue;
     font-size: 2em;
