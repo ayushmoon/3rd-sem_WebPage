@@ -130,8 +130,8 @@ header{
     padding: 20px;
 }
 
-/*@media only screen and (max-width:800px) {
-    /* For tablets: 
+@media only screen and (max-width:800px) {
+    /* For tablets: */
     .main {
       width: 80%;
       padding: 0;
@@ -139,7 +139,7 @@ header{
     .right {
       width: 100%;
     }
-  } */
+  } 
 
   .books{
     text-shadow: 2px 2px 2px blue;
